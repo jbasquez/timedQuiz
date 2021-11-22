@@ -53,6 +53,7 @@ function showQuestion(question) {
 }
 //resets games button removes nest button
 function resetState(){ 
+    timeLeft = 10;
     clearStatusClass(document.body)
     nextButton.classList.add('hide')
     while (answerButtonsElement.firstChild) {
